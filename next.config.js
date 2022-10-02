@@ -6,7 +6,6 @@ const withPWA = require("next-pwa")({
   disable: process.env.NODE_ENV === "development",
   skipWaiting: true,
 });
-const { i18n } = require("./next-i18next.config");
 
 /** @type {import('next').NextConfig} nextConfig */
 const nextConfig = {
@@ -24,7 +23,6 @@ const nextConfig = {
     // !! WARN !!
     ignoreBuildErrors: false,
   },
-  i18n,
 };
 
 module.exports = withPWA(nextConfig);
