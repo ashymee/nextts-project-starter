@@ -13,15 +13,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: [
-      "api.codiga.io",
-      "app.codiga.io",
-      "htpqxbnegiziuzrzrgbl.supabase.co",
-      "lh3.googleusercontent.com",
-      "ipgeolocation.io",
-      "media.giphy.com",
-      "res.cloudinary.com",
-    ],
+    domains: [],
     dangerouslyAllowSVG: true,
     // contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
