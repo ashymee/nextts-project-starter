@@ -1,7 +1,6 @@
 const publicInfo = {
-  appName: "NEXT APP",
-  // prettier-ignore
-  description: '',
+  appName: "NextJS Project Starter",
+  description: "",
   version: "1.0.0",
   author: "Aswin Sahlan Himawan",
   website: "",

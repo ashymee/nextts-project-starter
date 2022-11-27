@@ -28,9 +28,7 @@
         "allowAsProps": true
       }
     ],
-    "react/prop-types": [
-      0
-    ],
+    "react/prop-types": [0],
     "prettier/prettier": "error",
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [
@@ -43,10 +41,8 @@
       }
     ],
     "simple-import-sort/imports": "warn",
-    "simple-import-sort/exports": "warn"
+    "simple-import-sort/exports": "warn",
+    "@next/next/no-html-link-for-pages": ["error"]
   },
-  "ignorePatterns": [
-    "workbox*.js",
-    "sw.js"
-  ]
+  "ignorePatterns": ["workbox*.js", "sw.js"]
 }

@@ -10,6 +10,9 @@ const withPWA = require("next-pwa")({
 /** @type {import('next').NextConfig} nextConfig */
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
   swcMinify: true,
   images: {
     domains: [],
